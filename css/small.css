@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Zen+Kurenaido&display=swap");
 
+
 body p {
     font-family: "Zen Kurenaido", sans-serif;
     font-size: 20px;
@@ -10,5 +11,111 @@ body p {
   }
   header{
     background-color: #540804;
-    margin: 10px;
+    padding: 5px 0;
+    width: 100%;
+    margin:  20px auto;
+    
+  }
+#name-area{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    }
+    header h1{
+        color: #ffffff;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 15px;
+        text-shadow: 5px 10px 10px #ffffff;
+    }
+    header h3{
+        color: #ffffff;
+        font-size: 2rem;
+        text-align: center;
+        margin: -20px;
+        text-shadow: 5px 10px 10px #ffffff;
+    }
+    header picture img{
+        width: 200px;
+        height: 150px;
+        padding: 5px;
+        
+    }
+    .fb, .ln{
+        height: 40px;
+        width: 40px;
+        padding: 5px;;
+    }
+    .social{
+        margin-right: 2.5rem; 
+        margin-top: 15px; 
+        
+    }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: inherit;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Zen Kurenaido", sans-serif; 
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: "Zen Kurenaido", sans-serif; 
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
