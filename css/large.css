@@ -26,4 +26,8 @@
         font-weight: bolder;
         text-shadow: 5px 5px 5px black;
       }
+      .display img:hover{
+            border-radius: 5px 100px;
+            box-shadow: 0 0 50px #333;
+      }
 }
