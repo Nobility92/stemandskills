@@ -22,4 +22,10 @@
     #foot{
         display: flex;
     }
+    .intro{
+        margin-top: -70px;
+        margin-left: 50px;
+        font-weight: bolder;
+        text-shadow: 5px 5px 5px black;
+      }
 }
