@@ -9,7 +9,7 @@ body p {
   h1, h2, h3, h4 {
     font-family: "Cinzel", serif;
   }
-  header{
+  header, footer{
     background-color: #540804;
     padding: 5px 0;
     width: 100%;
@@ -118,4 +118,27 @@ body p {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  #foot{
+    display: flex;
+    justify-content: space-between;
+  }
+  footer img{
+    width:200px;
+    height: 150px;
+    padding: 5px;
+  }
+  footer ul li{
+    font-family:"Zen Kurenaido", sans-serif; 
+    color: #ffffff;
+    list-style: none;
+  }
+  footer ul li a{
+    font-family:"Zen Kurenaido", sans-serif; 
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .dept{
+    margin-right: 5rem;
+    text-align: left;
   }
