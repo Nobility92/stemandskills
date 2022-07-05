@@ -129,7 +129,7 @@ body p {
     padding: 5px;
   }
   footer ul li{
-    font-family:"Zen Kurenaido", sans-serif; 
+    font-family: "Cinzel", serif;
     color: #ffffff;
     list-style: none;
   }
@@ -141,4 +141,25 @@ body p {
   .dept{
     margin-right: 5rem;
     text-align: left;
+  }
+  .deli{
+    margin-top: 25px;
+    margin-bottom: .75rem;
+  }
+  .con{
+    margin-right: 5rem;
+    color: #ffffff;
+    
+  }
+  .footnote{
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+    color: #ffffff;
+    font-size: medium;
+  }
+  marquee{
+        font-family: "Zen Kurenaido", sans-serif ;
+        color: #540804;
+        font-weight: bolder;
   }
