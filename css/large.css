@@ -30,4 +30,15 @@
             border-radius: 5px 100px;
             box-shadow: 0 0 50px #333;
       }
+      /* for contact us page*/
+      form fieldset{
+        margin: 2rem;
+    }
+
+    form label.top input{
+        width: 100%;   
+    }
+    .submitBtn:hover{
+      background-color: red;
+  }
 }

@@ -196,3 +196,59 @@ body p {
     text-shadow: 5px 5px 5px black;
     text-align: center;
   }
+  /* for contact us page*/
+  form fieldset{
+    margin: 2rem ;
+    border: thick solid #540804;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+form legend{
+    color: #540804;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top {
+    display: block;
+    padding: .75rem;
+    color: #540804;
+    font-size: 1rem;
+
+}
+form p{
+  margin-left: 50px;
+  margin-top: 5px;
+  text-align: justify;
+}
+form label.top input{
+    
+    display: block;
+    font-size: 1rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    max-width: 20rem;
+    background-color: darkgray;
+}
+form label.top textarea{
+  height: 150px;
+  width: 100%;
+  border: 2px solid #540804;
+}
+form input.submitBtn{
+  border: none;
+  background-color: #540804;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 2rem;
+  width: 96%;
+  max-width: 20rem;
+}
+form label.top input:required{
+  border-left: red solid 6px;
+}
+form label.top input:required:valid{
+  border-left: green solid 6px;
+}
