@@ -17,22 +17,22 @@ body p {
     
   }
 #name-area{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     width: 100%;
     margin: 0;
     justify-content: space-between;
+    text-align: center;
     }
     header h1{
         color: #ffffff;
-        font-size: 3rem;
+        font-size: 30px;
         text-align: center;
         margin-top: 15px;
         text-shadow: 5px 10px 10px #ffffff;
     }
     header h3{
         color: #ffffff;
-        font-size: 2rem;
+        font-size: 20px;
         text-align: center;
         margin: -20px;
         text-shadow: 5px 10px 10px #ffffff;
@@ -42,15 +42,15 @@ body p {
         height: 150px;
         padding: 5px;
         
+        
     }
     .fb, .ln{
         height: 40px;
         width: 40px;
         padding: 5px;;
     }
-    .social{
-        margin-right: 2.5rem; 
-        margin-top: 15px; 
+    .social{ 
+        margin-top: 25px; 
         
     }
   
@@ -120,7 +120,7 @@ body p {
     display: block;
   }
   #foot{
-    display: flex;
+    display: block;
     justify-content: space-between;
   }
   footer img{
@@ -132,6 +132,8 @@ body p {
     font-family: "Cinzel", serif;
     color: #ffffff;
     list-style: none;
+    font-size: 20px;
+    padding: 5px;
   }
   footer ul li a{
     font-family:"Zen Kurenaido", sans-serif; 
@@ -144,17 +146,19 @@ body p {
   }
   .deli{
     margin-top: 25px;
-    margin-bottom: .75rem;
+    font-family:"Zen Kurenaido", sans-serif; 
+    font-size: 20px;
+    
   }
   .con{
-    margin-right: 5rem;
+    margin-left: 2.5rem;
     color: #ffffff;
     
   }
   .footnote{
     text-align: center;
     margin: 0;
-    padding: 2px;
+    padding: 10px;
     color: #ffffff;
     font-size: medium;
   }
@@ -162,4 +166,23 @@ body p {
         font-family: "Zen Kurenaido", sans-serif ;
         color: #540804;
         font-weight: bolder;
+  }
+  #home{
+    display: block;
+    margin: 0 50px;
+    text-align: center;
+  }
+  .display{
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #D9DBF1;
+
+  }
+  .display img{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px #0B3948;
   }
