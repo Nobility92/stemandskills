@@ -256,3 +256,34 @@ form label.top input:required:valid{
   text-align: center;
   font-size: 30px;
 }
+/*registration page*/
+
+#register-page{
+  margin: 2rem;
+}
+
+#register-page h3{
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  color: #540804;
+  font-weight: bolder;
+}
+#register-page h2{
+  text-shadow: 5px 5px 5px black;
+  color: #540804;
+  margin-top: 40px;  
+}
+#register-page p{
+  margin-top: 40px;
+  text-align: justify;  
+}
+#register-page a{
+ font-size: 20px;  
+}
+.choose{
+   padding: 5px;
+   font-size: 20px;
+ }
+ #register-page span{
+  background-color: yellow; 
+ }

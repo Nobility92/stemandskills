@@ -41,4 +41,14 @@
     .submitBtn:hover{
       background-color: red;
   }
+  /*for registration page*/
+  #register-page{
+    margin: 3rem;
+  }
+  #register-page a:hover{
+    color: red;  
+   }
+   #register-page a:after{
+    color:blueviolet;  
+   }
 }
