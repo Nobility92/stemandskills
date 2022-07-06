@@ -28,4 +28,14 @@
         font-weight: bolder;
         text-shadow: 5px 5px 5px black;
       }
+      .submitBtn{
+        border: none;
+        background-color: #540804;
+        color: white;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 2rem;
+        width: 96%;
+        
+      }
 }
