@@ -38,4 +38,17 @@
         width: 96%;
         
       }
+      /*for business page*/
+      .biz-image{
+        display: flex;
+        flex-direction: column;
+      
+      }
+       /*for culinary page*/
+       .cul-image{
+        display: flex;
+        flex-direction: column;
+      
+      }
+    
 }

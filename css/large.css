@@ -51,4 +51,19 @@
    #register-page a:after{
     color:blueviolet;  
    }
+   /*for business page*/
+   .biz-image{
+    display: flex;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+  }
+  /*for culinary page*/
+  .cul-image{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+  }
 }

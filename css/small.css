@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Zen+Kurenaido&display=swap");
 
-main{
-  background-color: #D9DBF1;
-}
 body p {
     font-family: "Zen Kurenaido", sans-serif;
     font-size: 20px;
@@ -296,4 +293,79 @@ form label.top input:required:valid{
   margin: 0 2rem;
   width: 96%;
   max-width: 20rem;
+}
+/*for business page*/
+#business{
+  margin: 2rem;
+}
+
+#business h3{
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  color: #540804;
+  font-weight: bolder;
+}
+#business p{
+  margin-top: 20px;
+  text-align: justify;  
+}
+.biz-image{
+  display: block;
+  gap: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 50px;
+}
+.biz-image picture img{
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #0B3948;
+}
+.chris{
+  text-align: center;
+  margin-top: 30px;
+ 
+}
+.chris picture img{
+  width: 200px;
+  border-radius: 150px;
+  box-shadow: 5px 5px 10px 5px #0B3948;
+}
+/*for culnary page*/
+#culinary{
+  margin: 2rem;
+}
+
+#culinary h3{
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  color: #540804;
+  font-weight: bolder;
+}
+#culinary p{
+  margin-top: 20px;
+  text-align: justify;  
+}
+.cul-image{
+  display: block;
+  gap: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 50px;
+}
+.cul-image picture img{
+  width: 350px;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #0B3948;
+}
+.brian{
+  text-align: center;
+  margin-top: 30px;
+ 
+}
+.brian picture img{
+  width: 200px;
+  border-radius: 150px;
+  box-shadow: 5px 5px 10px 5px #0B3948;
 }
