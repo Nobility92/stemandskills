@@ -54,6 +54,7 @@
    /*for business page*/
    .biz-image{
     display: flex;
+    flex-direction: row;
     grid-template-columns: repeat(autofit, minmax(300px, 1fr));
     gap: 2rem;
     justify-content: center;
