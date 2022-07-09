@@ -158,6 +158,12 @@ body p {
     color: #ffffff;
     
   }
+  .update{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5px;
+    font-size: 15px;
+}
   .footnote{
     text-align: center;
     margin: 0;
