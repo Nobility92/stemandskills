@@ -164,6 +164,10 @@ body p {
     margin-top: 5px;
     font-size: 15px;
 }
+iframe{
+  width: 250px;
+  height: 100px;
+}
   .footnote{
     text-align: center;
     margin: 0;
