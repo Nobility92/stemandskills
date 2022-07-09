@@ -317,6 +317,7 @@ form label.top input:required:valid{
   margin-bottom: 50px;
 }
 .biz-image picture img{
+  width: 270px;
   margin-bottom: 1rem;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #0B3948;
@@ -354,7 +355,7 @@ form label.top input:required:valid{
   margin-bottom: 50px;
 }
 .cul-image picture img{
-  width: 350px;
+  width: 270px;
   margin-bottom: 1rem;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #0B3948;

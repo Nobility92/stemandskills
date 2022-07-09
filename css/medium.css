@@ -44,11 +44,19 @@
         flex-direction: column;
       
       }
+      .biz-image picture img{
+        width: 350px;
+       
+      }
        /*for culinary page*/
        .cul-image{
         display: flex;
         flex-direction: column;
       
+      }
+      .cul-image picture img{
+        width: 350px;
+        
       }
     
 }
