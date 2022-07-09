@@ -118,6 +118,10 @@ body p {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  footer{
+    margin-top: 20px;
+  }
   #foot{
     display: block;
     justify-content: space-between;
