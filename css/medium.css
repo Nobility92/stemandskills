@@ -22,6 +22,9 @@
     #foot{
         display: flex;
     }
+    .con{
+      margin-right: 5em;
+    }
     .intro{
         margin-top: -70px;
         margin-left: 50px;
@@ -55,8 +58,13 @@
       
       }
       .cul-image picture img{
-        width: 350px;
-        
+        width: 350px;   
       }
-    
+
+      /* for Archive page*/
+    .arc-image{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
 }

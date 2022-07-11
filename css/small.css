@@ -384,3 +384,25 @@ form label.top input:required:valid{
   border-radius: 150px;
   box-shadow: 5px 5px 10px 5px #0B3948;
 }
+
+#archive{
+  margin: 2rem;
+}
+#archive p{
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+  color: #540804;
+  font-weight: bolder;
+}
+.arc-image{
+  display: block;
+  gap: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.arc-image picture img{
+  width: 300px;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #0B3948;
+}
