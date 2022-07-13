@@ -272,7 +272,6 @@ form label.top input:required:valid{
 #register-page{
   margin: 2rem;
 }
-
 #register-page h3{
   text-shadow: 5px 5px 5px black;
   text-align: center;
@@ -297,6 +296,9 @@ form label.top input:required:valid{
  }
  #register-page span{
   background-color: yellow; 
+ }
+ .reg-p{
+  margin-left: 10px;
  }
  .submitBtn{
   border: none;
@@ -384,7 +386,7 @@ form label.top input:required:valid{
   border-radius: 150px;
   box-shadow: 5px 5px 10px 5px #0B3948;
 }
-
+/* for archive page*/
 #archive{
   margin: 2rem;
 }
@@ -405,4 +407,18 @@ form label.top input:required:valid{
   margin-bottom: 1rem;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #0B3948;
+}
+/*for Electrical Engineering page*/
+#elect-elect{
+  margin: 2rem;
+}
+#elect-elect h3{
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  color: #540804;
+  font-weight: bolder;
+}
+#elect-elect p{
+  margin-top: 20px;
+  text-align: justify;  
 }
