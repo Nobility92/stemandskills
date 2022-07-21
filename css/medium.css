@@ -22,6 +22,10 @@
   .topnav a {
     font-size: 20px;
   }
+  .dropdown .dropbtn {
+    font-size: 20px;    
+   
+  }
     main{
         background-color: #ffffff;
     }
