@@ -24,7 +24,9 @@
   }
   .dropdown .dropbtn {
     font-size: 20px;    
-   
+  }
+  .active{
+    background-color: inherit;
   }
     main{
         background-color: #ffffff;
