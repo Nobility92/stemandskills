@@ -1,4 +1,27 @@
 @media only screen and (min-width: 32.5em){
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: flex;
+  }
+  .topnav a.icon {
+    display: none;
+  }
+  .dropdown-content a {
+    display: flex;
+    text-align: left;
+  }
+  .topnav.responsive a {
+    display: flex;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: flex;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav a {
+    font-size: 20px;
+  }
     main{
         background-color: #ffffff;
     }
