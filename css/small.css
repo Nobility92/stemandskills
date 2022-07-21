@@ -164,9 +164,10 @@ body p {
     margin-top: 5px;
     font-size: 15px;
 }
-iframe{
-  width: 250px;
+footer a img{
+  width: 100px;
   height: 100px;
+  margin-top: -20px;
 }
   .footnote{
     text-align: center;
@@ -407,6 +408,11 @@ form label.top input:required:valid{
   margin-bottom: 1rem;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #0B3948;
+}
+video{
+  width: 300px;
+  margin-bottom: 10px;
+  
 }
 /*for Electrical Engineering page*/
 #elect-elect{
