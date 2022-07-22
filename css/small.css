@@ -274,7 +274,7 @@ footer a img{
     font-size: medium;
   }
   marquee{
-        font-family: "Zen Kurenaido", sans-serif ;
+        font-family: "Zen Kurenaido", sans-serif;
         color: #540804;
         font-weight: bolder;
   }
@@ -401,10 +401,11 @@ form label.top input:required:valid{
  .submitBtn{
   border: none;
   background-color: #540804;
+  font-family: "Zen Kurenaido", sans-serif;
   color: white;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
-  margin: 0 1rem;
+  margin:0 1rem;
   width: 70%;
   max-width: 20rem;
 }
@@ -437,15 +438,16 @@ form label.top input:required:valid{
   box-shadow: 5px 5px 5px 5px #0B3948;
 }
 .chris{
-  text-align: center;
+  text-align-last: center;
   margin-top: 30px;
- 
+  margin-bottom: 2rem;
 }
 .chris picture img{
   width: 200px;
   border-radius: 150px;
   box-shadow: 5px 5px 10px 5px #0B3948;
 }
+ 
 /*for culnary page*/
 #culinary{
   margin: 2rem;
@@ -475,8 +477,9 @@ form label.top input:required:valid{
   box-shadow: 5px 5px 5px 5px #0B3948;
 }
 .brian{
-  text-align: center;
+  text-align-last: center;
   margin-top: 30px;
+  margin-bottom: 2rem;
  
 }
 .brian picture img{
@@ -525,15 +528,4 @@ video{
   margin-top: 20px;
   text-align: justify;  
 }
-/*for like button*/
-.like__btn {
-  padding: 10px 15px;
-  background: #0080ff;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  border-radius: 5px;
-  color: #e8efff;
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
+
