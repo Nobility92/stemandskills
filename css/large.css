@@ -38,8 +38,11 @@
         font-weight: bolder;
         text-shadow: 5px 5px 5px black;
       }
+      .display img{
+       width: 250px;
+  }
       .display img:hover{
-            border-radius: 5px 100px;
+            border-radius: 150px;
             box-shadow: 0 0 50px #333;
       }
       /* for contact us page*/
@@ -71,6 +74,9 @@
     gap: 2rem;
     justify-content: center;
    }
+   .biz-image picture img{
+    width: 290px;
+  }
     .biz-image picture img:hover{
       border-radius: 150px;
     }
@@ -82,6 +88,9 @@
     grid-template-columns: repeat(autofit, minmax(300px, 1fr));
     gap: 2rem;
     justify-content: center;
+  }
+  .cul-image picture img{
+    width: 300px;
   }
   .cul-image picture img:hover{
     border-radius: 150px;
