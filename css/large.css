@@ -70,7 +70,11 @@
     grid-template-columns: repeat(autofit, minmax(300px, 1fr));
     gap: 2rem;
     justify-content: center;
-  }
+   }
+    .biz-image picture img:hover{
+      border-radius: 150px;
+    }
+  
   /*for culinary page*/
   .cul-image{
     display: flex;
@@ -78,6 +82,9 @@
     grid-template-columns: repeat(autofit, minmax(300px, 1fr));
     gap: 2rem;
     justify-content: center;
+  }
+  .cul-image picture img:hover{
+    border-radius: 150px;
   }
         /* for Archive page*/
         .arc-image{

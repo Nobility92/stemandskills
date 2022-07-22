@@ -121,6 +121,7 @@ body p {
   .topnav {
     overflow: hidden;
     background-color: inherit;
+    margin-left: 1rem;
   }
   
   .topnav a {
@@ -288,7 +289,9 @@ footer a img{
     padding: 10px;
     border: 1px solid black;
     border-radius: 15px;
-    background-color: #D9DBF1;
+    background-color: #540804;
+    color: #FFFFFF;
+    font-weight: bold;
 
   }
   .display img{
