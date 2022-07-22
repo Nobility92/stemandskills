@@ -45,6 +45,11 @@
             border-radius: 150px;
             box-shadow: 0 0 50px #333;
       }
+      .zoom:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+      }
       /* for contact us page*/
       form fieldset{
         margin: 2rem;
