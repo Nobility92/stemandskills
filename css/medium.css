@@ -100,4 +100,13 @@ video{
   width: 300px;
   margin-left: 1.5rem;
 }
+/* for programming page*/
+.pro-image{
+  display: flex;
+  flex-direction: column;
+
+}
+.pro-image picture img{
+  width: 350px;   
+}
 }

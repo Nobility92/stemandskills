@@ -113,4 +113,18 @@
           width: 350px;
           margin-left: 1rem;
         }
+          /*for programming page*/
+  .pro-image{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+  }
+  .pro-image picture img{
+    width: 300px;
+  }
+  .pro-image picture img:hover{
+    border-radius: 150px;
+  }
 }
