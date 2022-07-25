@@ -532,4 +532,42 @@ video{
   margin-top: 20px;
   text-align: justify;  
 }
+/* for Programming page*/
+#programming{
+  margin: 2rem;
+}
 
+#programming h3{
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  color: #540804;
+  font-weight: bolder;
+}
+#programming p{
+  margin-top: 20px;
+  text-align: justify;  
+}
+.pro-image{
+  display: block;
+  gap: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 50px;
+}
+.pro-image picture img{
+  width: 270px;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #0B3948;
+}
+.suma{
+  text-align-last: center;
+  margin-top: 30px;
+  margin-bottom: 2rem;
+}
+.suma picture img{
+  width: 200px;
+  border-radius: 150px;
+  box-shadow: 5px 5px 10px 5px #0B3948;
+}
+ 
