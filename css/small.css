@@ -580,4 +580,42 @@ video{
   border-radius: 150px;
   box-shadow: 5px 5px 10px 5px #0B3948;
 }
+/* for eng-graph page*/
+#eng-graph{
+  margin: 2rem;
+}
+
+#eng-graph h3{
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  color: #540804;
+  font-weight: bolder;
+}
+#eng-graph p{
+  margin-top: 20px;
+  text-align: justify;  
+}
+.eng-image{
+  display: block;
+  gap: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 50px;
+}
+.eng-image picture img{
+  width: 270px;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #0B3948;
+}
+.roy{
+  text-align-last: center;
+  margin-top: 30px;
+  margin-bottom: 2rem;
+}
+.roy picture img{
+  width: 200px;
+  border-radius: 150px;
+  box-shadow: 5px 5px 10px 5px #0B3948;
+}
  

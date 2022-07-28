@@ -127,4 +127,18 @@
   .pro-image picture img:hover{
     border-radius: 150px;
   }
+          /*for eng-graph page*/
+          .eng-image{
+            display: flex;
+            flex-direction: row;
+            grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+            gap: 2rem;
+            justify-content: center;
+          }
+          .eng-image picture img{
+            width: 300px;
+          }
+          .eng-image picture img:hover{
+            border-radius: 150px;
+          }
 }
